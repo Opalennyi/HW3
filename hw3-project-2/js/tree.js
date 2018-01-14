@@ -12,7 +12,7 @@ class Tree {
      *
      * @param treeData an array of objects that contain parent/child information.
      */
-    createTree(treeData) {
+    createTree(flatData) {
 
         // ******* TODO: PART VI *******
 
