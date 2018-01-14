@@ -61,9 +61,9 @@ class BarChart {
             .call(d3.axisBottom(x))
             .selectAll("text")
                 .attr("y", 0)
-                .attr("x", 9)
+                .attr("x", -43)
                 .attr("dy", ".35em")
-                .attr("transform", "rotate(90)")
+                .attr("transform", "rotate(270)")
                 .style("text-anchor", "start");
 
         d3.select('#yAxis')

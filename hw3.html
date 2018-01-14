@@ -6,7 +6,9 @@
     <title>Visualization - Homework 3</title>
     <link rel="stylesheet" href="styles.css"/>
     <script src="https://d3js.org/d3.v4.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+    <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/2.2.0/topojson.min.js"></script>
     <script src="js/infoPanel.js" async></script>
     <script src="js/barChart.js" async></script>
     <script src="js/map.js" async></script>
@@ -44,7 +46,7 @@
             </select>
         </div>
 
-        <svg width="500" height="400" id="barChart">
+        <svg width="600" height="500" id="barChart">
             <g id="xAxis"></g>
             <g id="yAxis"></g>
             <g id="bars"></g>
@@ -66,7 +68,7 @@
         </svg>
 
         <svg width="900" height="600">
-            <g id="map">            </g>
+            <g id="map"></g>
             <g id="points"></g>
         </svg>
     </div>
