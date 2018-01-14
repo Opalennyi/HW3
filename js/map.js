@@ -21,6 +21,7 @@ class Map {
         // the colors and markers for hosts/teams/winners, you can use
         // d3 selection and .classed to set these classes on and off here.
 
+        var map = d3.select('#map');
         map.selectAll('.countries')
             .attr('class', 'countries');
         map.selectAll('.host')
@@ -86,6 +87,8 @@ class Map {
         // updateMap() will need it to add the winner/runner_up markers.)
 
         // ******* TODO: PART IV *******
+
+        var map = d3.select('#map');
 
         // Draw the background (country outlines; hint: use #map)
         // Make sure and add gridlines to the map
